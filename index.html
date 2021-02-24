@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="assets/styles/style.css">
+    </head>
+
+    <body>
+        <div class="calculator">
+            <h1>Calculadora</h1>
+            
+            <div class="calculator_area">
+                <div class="display"><span>0</span></div>
+
+                <div class="keyboard">
+                    <div class="keyboard_line">
+                        <div class="keyboard_key" onclick="clearCalculator()">C</div>
+                        <div class="keyboard_key" onclick="changeSign()">+/-</div>
+                        <div class="keyboard_key" onclick="percentage()">%</div>
+                        <div class="keyboard_key" onclick="divide()">/</div>
+                    </div>
+
+                    <div class="keyboard_line">
+                        <div class="keyboard_key" onclick="insertNumber(this)">7</div>
+                        <div class="keyboard_key" onclick="insertNumber(this)">8</div>
+                        <div class="keyboard_key" onclick="insertNumber(this)">9</div>
+                        <div class="keyboard_key" onclick="multiply()">X</div>
+                    </div>
+
+                    <div class="keyboard_line">
+                        <div class="keyboard_key" onclick="insertNumber(this)">4</div>
+                        <div class="keyboard_key" onclick="insertNumber(this)">5</div>
+                        <div class="keyboard_key" onclick="insertNumber(this)">6</div>
+                        <div class="keyboard_key" onclick="subtract()">-</div>
+                    </div>
+
+                    <div class="keyboard_line">
+                        <div class="keyboard_key" onclick="insertNumber(this)">1</div>
+                        <div class="keyboard_key" onclick="insertNumber(this)">2</div>
+                        <div class="keyboard_key" onclick="insertNumber(this)">3</div>
+                        <div class="keyboard_key" onclick="sum()">+</div>
+                    </div>
+
+                    <div class="keyboard_line">
+                        <div class="keyboard_key key_0" onclick="insertNumber(this)">0</div>
+                        <div class="keyboard_key" onclick="addComma()">,</div>
+                        <div class="keyboard_key" onclick="equal()">=</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">devloped by <a href="https://github.com/JVUser01">João Vitor</a></div>
+        </div>
+
+        <script src="assets/scripts/script.js"></script>
+    </body>
+</html>
