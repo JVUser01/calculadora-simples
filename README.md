@@ -2,15 +2,17 @@
 
 Calculadora simples com todas as operações básicas
 
-# :clipboard: Tabela de conteúdos
+# Tabela de conteúdos
 
-* [Demonstração da aplicação](#mag-Demonstração-da-aplicação)
+* [Demonstração da aplicação](#gear-Demonstração-da-aplicação)
 * [Tecnologias](#computer-Tecnologias)
 * [Licensa](#page_facing_up-Licensa)
 
-# :mag: Demonstração da aplicação
+# :gear: Demonstração da aplicação
 
-<div style="display: flex;">
+Acesse o site aqui: https://jvuser01.github.io/calculadora-simples/
+
+<div>
     <img src="screenshots/screenshot 1.png" alt="Screenshot" width="350px"/>
     <img src="screenshots/screenshot 2.png" alt="Screenshot" width="350px"/>
 </div>
